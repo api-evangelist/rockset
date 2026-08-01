@@ -1,8 +1,22 @@
 aid: rockset
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rockset.png
 name: Rockset
-description: 'Rockset is a company surfaced as a portfolio company of greylock and added to the API Evangelist
-  network as a stub for enrichment. Sector: infrastructure. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Rockset was a real-time analytics database company (Greylock portfolio, infrastructure sector)
+  that was acquired by OpenAI in June 2024. The standalone product and API have been wound down: rockset.com
+  now 301-redirects to OpenAI''s acquisition announcement, and the former developer surface (docs.rockset.com,
+  api.rs2.usw2.rockset.com) no longer resolves in DNS. There is no live public API to enrich; this profile
+  is retained as a historical company record.'
 url: https://raw.githubusercontent.com/api-evangelist/rockset/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,7 +26,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Infrastructure
@@ -25,3 +39,10 @@ maintainers:
 common:
 - type: Website
   url: https://rockset.com/
+x-defunct: true
+x-defunct-reason: acquired-by-openai-2024-06
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
