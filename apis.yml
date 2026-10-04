@@ -30,6 +30,7 @@ description: 'Rockset was a real-time analytics database company (Greylock portf
   now 301-redirects to OpenAI''s acquisition announcement, and the former developer surface (docs.rockset.com,
   api.rs2.usw2.rockset.com) no longer resolves in DNS. There is no live public API to enrich; this profile
   is retained as a historical company record.'
+x-status: defunct
 url: https://raw.githubusercontent.com/api-evangelist/rockset/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -43,6 +44,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Infrastructure
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
